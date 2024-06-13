@@ -1,6 +1,6 @@
 async function fetchData() {
     try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/posts/1'); // Замените URL на ваше API
+        const response = await fetch('https://jsonplaceholder.typicode.com/posts/1'); 
         if (!response.ok) {
             throw new Error('Ошибка загрузки данных');
         }
