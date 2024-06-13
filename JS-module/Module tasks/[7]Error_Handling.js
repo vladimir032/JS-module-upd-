@@ -14,11 +14,11 @@ function checkInteger(number) {
 }
 
 try {
-    checkInteger(10); // The provided number is an integer.
-    checkInteger(10.5); // The provided number is not an integer.
+    checkInteger(10); 
+    checkInteger(10.5); 
 } catch (e) {
     if (e instanceof NotAnIntegerError) {
-        console.error(e.message); // Вывод ошибки, если число не целое
+        console.error(e.message);
     } else {
         console.error('An unexpected error occurred.');
     }
