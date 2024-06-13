@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 function factorial(n) {
     if (typeof n !== 'number' || n < 0 || !Number.isInteger(n)) {
