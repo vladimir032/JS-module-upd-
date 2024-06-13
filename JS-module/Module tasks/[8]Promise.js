@@ -3,7 +3,7 @@ function asyncOperation(value) {
         setTimeout(() => {
             console.log("Выполнение асинхронной операции для значения", value);
             resolve(value);
-        }, Math.random() * 2000); // случайная задержка от 0 до 2000 миллисекунд
+        }, Math.random() * 2000); 
     });
 }
 
